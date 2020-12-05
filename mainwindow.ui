@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="mainFocusCAM">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>70</y>
+      <width>331</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MainFocus CAM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="thirdCAM">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>330</y>
+      <width>331</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Third CAM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="secondCAM">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>200</y>
+      <width>331</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Second CAM</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>mainFocusCAM</tabstop>
+  <tabstop>thirdCAM</tabstop>
+  <tabstop>secondCAM</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
